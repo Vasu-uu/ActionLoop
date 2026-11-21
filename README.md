@@ -4,8 +4,20 @@
 
 Built for the **Creators AI Winter Challenge** (Devpost). Runs **fully offline in demo mode: no API key, no internet, no cost.**
 
-![ActionLoop overview](docs/screenshots/overview.png)
-<!-- GIF placeholder: docs/screenshots/demo.gif -->
+![ActionLoop overview: summary, decisions and the Needs clarification panel](docs/screenshots/02-overview.png)
+
+<!-- GIF placeholder: record docs/screenshots/demo.gif following docs/demo-script.md -->
+
+<details open>
+<summary><b>Screenshots</b></summary>
+
+| | |
+|---|---|
+| ![Landing page with samples](docs/screenshots/01-landing.png)<br>**Start**: paste, upload, or try a sample | ![Kanban board](docs/screenshots/03-board.png)<br>**Board**: drag-and-drop, deadline chips, clarification badges |
+| ![Email drafts](docs/screenshots/04-emails.png)<br>**Emails**: recap plus per-owner drafts, three tones | ![Evidence jump to transcript](docs/screenshots/05-transcript-evidence.png)<br>**Evidence**: a quote jumps to its transcript line |
+| ![Exports](docs/screenshots/06-export.png)<br>**Export**: MD, CSV, ICS, JSON, Slack text, ZIP | ![Dark mode board](docs/screenshots/07-board-dark.png)<br>**Dark mode** |
+
+</details>
 
 ## Problem
 
@@ -37,7 +49,6 @@ ActionLoop does the whole loop:
 | History | Sidebar with open/rename/delete, plus open and overdue task counts. |
 | Extras | Dark mode, toasts, skeletons, empty states, keyboard shortcuts (`/` search, `n` new task, `1`-`5` tabs), workload chart. |
 
-<!-- Screenshots: docs/screenshots/board.png, emails.png, transcript.png -->
 
 ## Architecture
 

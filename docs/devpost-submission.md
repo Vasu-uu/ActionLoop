@@ -6,6 +6,19 @@ ActionLoop
 ## Tagline
 Turn messy meetings into finished follow-through: verified decisions, owned tasks and ready-to-send emails.
 
+## Image gallery (upload in this order)
+Screenshots are in `docs/screenshots/`. Devpost accepts JPG/PNG/GIF, ideally 3:2, so use these 800-px captures as-is or crop to 3:2.
+
+1. `02-overview.png`: summary, decisions and the Needs clarification panel (use as the **thumbnail**)
+2. `03-board.png`: Kanban board with deadline chips and clarification badges
+3. `05-transcript-evidence.png`: evidence quote jumping to the highlighted transcript line
+4. `04-emails.png`: team recap and per-owner email drafts
+5. `06-export.png`: Markdown, CSV, ICS, JSON, Slack text and ZIP exports
+6. `07-board-dark.png`: dark mode
+7. `01-landing.png`: input options and one-click samples
+
+Suggested captions: "Every claim is backed by a verified quote", "ActionLoop never guesses owners or deadlines", "Drafts only: nothing is ever sent".
+
 ## Inspiration
 Every club, startup and study group has the same problem: the meeting goes well, and then nothing happens. Notes are incomplete, nobody remembers who said "I'll do it", "by Friday" means different days to different people, and the follow-up email never gets written. We wanted an agent that finishes the loop, and one that **doesn't make things up**, because a wrong owner or deadline is worse than a missing one.
 
