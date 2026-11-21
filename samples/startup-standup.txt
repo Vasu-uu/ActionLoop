@@ -1,0 +1,25 @@
+Priya: Okay, uh, let's get started, I think everyone's here? Marcus, you're on mute.
+Marcus: Sorry, yep, here. So, quick update on the onboarding flow. The new signup screen is basically done, but we're still seeing that Safari bug where the password field loses focus.
+Priya: Right, the Safari thing. Can you take a look at that today or tomorrow? It's blocking the beta invite.
+Marcus: Yeah, I can look at the Safari focus bug by tomorrow, no problem.
+Dana: Can I jump in? The pricing page copy is still not final. Legal wants to review the refund wording and I haven't heard back from them in like a week.
+Priya: Who's talking to legal on that?
+Dana: Um, I thought Leo was?
+Leo: Not me, I thought that was a Dana thing. But, okay, whatever, I can ping them. Actually no, let's... someone should just email them.
+Priya: Dana, you've got the relationship with them, so please just send the refund wording over and chase them by Friday.
+Dana: Fine, I'll send it this afternoon and chase by Friday.
+Leo: On my side, the analytics dashboard is, like, seventy percent. We talked last week about Postgres for the events table, and I'm going with that, so no change there.
+Priya: Good. And we're still going with the Postgres plan, right, not the hosted warehouse thing?
+Leo: Yes, Postgres for now. We can revisit the warehouse after launch.
+Priya: Okay so decision made: Postgres for launch, warehouse after launch. Great.
+Marcus: One risk though, the beta invite emails. If the email provider throttles us we might not get all fifty invites out on launch day.
+Priya: Hmm. That's a real risk. Leo, can you look into the sending limits sometime next week?
+Leo: Sure, I'll look into the email sending limits next week.
+Dana: Also, are we still doing the demo for the investors on the twentieth? Or did that move?
+Priya: I honestly don't know, I need to check with the board. Open question for now.
+Marcus: Also somebody should probably update the README, it's way out of date.
+Priya: Yeah, yeah, at some point. Not a priority.
+Dana: I could draft a launch blog post, if we want one.
+Priya: Yes please, Dana, a draft blog post by end of the month would be great.
+Dana: Done.
+Priya: Okay. Anything else? No? Cool, thanks everyone.

@@ -1,0 +1,33 @@
+{
+  "summary": {
+    "bullets": [
+      "New CI pipeline cut builds from ~20 minutes to ~6.",
+      "Last Thursday's release shipped without the migration script because nobody owned the release checklist.",
+      "Introducing a written release checklist and a rotating release captain; Omar is first.",
+      "Flaky payments tests and slow exports need investigation.",
+      "Auth vendor retires its old API in March and no one owns the migration; Friday deploys are stopped."
+    ],
+    "paragraph": "The team held a sprint retrospective. The CI pipeline was the big win, while the Thursday release exposed a lack of ownership for the release checklist. They agreed a checklist plus a rotating release captain, banned Friday deploys, and assigned follow-ups on flaky payments tests and slow exports. The auth-vendor migration deadline in March still has no owner."
+  },
+  "decisions": [
+    {"id": "d1", "decision": "Adopt a rotating release captain each sprint, with a written release checklist.", "rationale": "No one owned the release checklist, so the migration script was missed.", "evidence_quote": "Let's do a release captain rotation."},
+    {"id": "d2", "decision": "No more Friday deploys, effective immediately.", "rationale": null, "evidence_quote": "Decision: no more Friday deploys, starting now."}
+  ],
+  "action_items": [
+    {"id": "a1", "title": "Draft the release checklist and share with the team", "description": "A written checklist covering migration scripts and staging/production sync.", "owner": "Nina", "owner_confidence": "high", "deadline_raw": "by Monday", "priority": "high", "evidence_quote": "I'll draft the checklist and share it with everyone by Monday"},
+    {"id": "a2", "title": "Act as release captain for sprint 23", "description": "First turn in the new release captain rotation.", "owner": "Omar", "owner_confidence": "high", "deadline_raw": "next sprint", "priority": "medium", "evidence_quote": "I'll be release captain for sprint twenty-three"},
+    {"id": "a3", "title": "Investigate flaky payments tests (max ~2 days)", "description": "Payments tests fail about one run in five; suspected timing issue with the mock server.", "owner": "Jess", "owner_confidence": "high", "deadline_raw": "week after next", "priority": "medium", "evidence_quote": "Jess, can you dig into the flaky payments tests?"},
+    {"id": "a4", "title": "Check backlog for a slow-exports ticket; create one if missing", "description": "Support is receiving many tickets about slow exports and it has not been prioritised.", "owner": "Omar", "owner_confidence": "high", "deadline_raw": "today", "priority": "medium", "evidence_quote": "I'll check and add a ticket if it's missing"},
+    {"id": "a5", "title": "Plan the auth vendor API migration", "description": "The vendor is sunsetting its old API in March; no plan exists yet.", "owner": null, "owner_confidence": "low", "deadline_raw": null, "priority": "high", "evidence_quote": "I don't know who should own this yet"}
+  ],
+  "open_questions": [
+    {"id": "q1", "question": "Who owns the auth vendor API migration?", "suggested_owner": "Sam"},
+    {"id": "q2", "question": "Is a slow-exports ticket already in the backlog?", "suggested_owner": "Omar"}
+  ],
+  "risks": [
+    {"id": "r1", "risk": "Auth vendor retires its old API in March with no migration plan.", "severity": "high"},
+    {"id": "r2", "risk": "Flaky payments tests may hide real failures.", "severity": "medium"},
+    {"id": "r3", "risk": "Slow exports are driving customer-support tickets.", "severity": "medium"}
+  ],
+  "topics": ["retrospective", "release process", "CI", "testing", "vendor risk"]
+}

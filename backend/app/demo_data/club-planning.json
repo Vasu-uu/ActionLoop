@@ -1,0 +1,35 @@
+{
+  "summary": {
+    "bullets": [
+      "Hackathon is ~5-6 weeks away; the engineering atrium needs a booking form for about 150 people.",
+      "Format decided: a 12-hour event, Saturday 10 a.m. to 10 p.m.",
+      "Sponsorship one-pager, alumni judges and the registration page all still need owners or dates.",
+      "The $800 student-council budget is unconfirmed; last year's food ran out.",
+      "No backup venue if the atrium is not confirmed in time."
+    ],
+    "paragraph": "The club planned its spring hackathon. Chloe will submit the venue booking form, Diego will draft a sponsorship one-pager, Mei will confirm the food budget with the treasurer and later refresh the registration page, and Ben will start reaching out to alumni judges through the career center. The group chose a twelve-hour format. Food budgeting and a backup venue remain unresolved."
+  },
+  "decisions": [
+    {"id": "d1", "decision": "Run the hackathon as a 12-hour event, Saturday 10 a.m. to 10 p.m.", "rationale": "Easier for volunteers; participants can still sleep.", "evidence_quote": "we're going with twelve hours, Saturday ten a.m. to ten p.m."},
+    {"id": "d2", "decision": "Mei owns the registration page update, after midterms.", "rationale": "She designed it last time.", "evidence_quote": "let's say it's Mei's, we'll look at it after midterms"}
+  ],
+  "action_items": [
+    {"id": "a1", "title": "Submit atrium booking form (150 headcount)", "description": "The venue takes about a week to process the booking.", "owner": "Chloe", "owner_confidence": "high", "deadline_raw": "by next Wednesday", "priority": "high", "evidence_quote": "Chloe, submit the form by next Wednesday, please"},
+    {"id": "a2", "title": "Put together a sponsorship one-pager", "description": "Rough version for the club to review; consider the campus bookstore as another sponsor.", "owner": "Diego", "owner_confidence": "high", "deadline_raw": "before the next meeting", "priority": "medium", "evidence_quote": "Diego, can you put together a sponsorship deck?"},
+    {"id": "a3", "title": "Email the treasurer to confirm the $800 food budget", "description": "Nobody was sure the student-council money is confirmed.", "owner": "Mei", "owner_confidence": "high", "deadline_raw": "tomorrow", "priority": "high", "evidence_quote": "I'll email the treasurer to confirm the budget, tomorrow"},
+    {"id": "a4", "title": "Reach out to the alumni network for judges", "description": "Start with the career center; Ben was unsure who to contact.", "owner": "Ben", "owner_confidence": "medium", "deadline_raw": "whenever you can", "priority": "medium", "evidence_quote": "Ben, can you reach out to the alumni network?"},
+    {"id": "a5", "title": "Update the registration page", "description": "The page is still last year's version.", "owner": "Mei", "owner_confidence": "medium", "deadline_raw": "after midterms", "priority": "medium", "evidence_quote": "let's say it's Mei's, we'll look at it after midterms"},
+    {"id": "a6", "title": "Plan a larger food budget", "description": "Pizza ran out at 10 p.m. last year.", "owner": null, "owner_confidence": "low", "deadline_raw": null, "priority": "medium", "evidence_quote": "We should budget more food this time."}
+  ],
+  "open_questions": [
+    {"id": "q1", "question": "Is the $800 student-council budget actually confirmed?", "suggested_owner": "Mei"},
+    {"id": "q2", "question": "Who is the right contact in the alumni network?", "suggested_owner": "Ben"},
+    {"id": "q3", "question": "Should the campus bookstore be approached as a sponsor?", "suggested_owner": "Diego"}
+  ],
+  "risks": [
+    {"id": "r1", "risk": "No backup venue if the atrium is not confirmed in time.", "severity": "high"},
+    {"id": "r2", "risk": "Food could run out again, as it did last year.", "severity": "medium"},
+    {"id": "r3", "risk": "Registration page may be out of date close to the event; Mei is busy with midterms.", "severity": "low"}
+  ],
+  "topics": ["hackathon", "venue", "sponsorship", "budget", "judges"]
+}

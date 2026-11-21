@@ -1,0 +1,27 @@
+Sam: Okay, retro time. Let's do what went well, what didn't, and then actions. Who wants to start?
+Nina: What went well: the new CI pipeline. Builds went from, like, twenty minutes to six.
+Omar: Yeah, that was huge. Credit to Jess for that.
+Jess: Thanks. Okay, what didn't go well, the release last Thursday. We shipped without the migration script and the staging database was out of sync with production for, like, two days.
+Sam: Right. That's the big one. Why did that happen?
+Omar: Honestly, no one owned the release checklist. We all assumed someone else was checking.
+Nina: I think we need a written release checklist, and one person who's the release captain each sprint.
+Sam: I like that. Let's do a release captain rotation. Nina, can you draft the checklist?
+Nina: Yep, I'll draft the checklist and share it with everyone by Monday.
+Sam: And the first captain will be... Omar, you're up next sprint.
+Omar: Okay, fine. I'll be release captain for sprint twenty-three.
+Jess: We also had the flaky test problem again. The payments tests fail randomly like one in five runs.
+Sam: Who's looked at that?
+Jess: Nobody, really. I looked briefly. I think it's a timing issue with the mock server.
+Sam: Jess, can you dig into the flaky payments tests? Maybe two days of effort, not more.
+Jess: I can do that, but not this week, I'm on call. The week after next?
+Sam: Okay, week after next.
+Omar: Another thing. Customer support is getting a lot of tickets about slow exports. We haven't prioritized it.
+Nina: Is that in the backlog?
+Omar: Not sure. I'd have to check. I'll check and add a ticket if it's missing.
+Sam: Great, today if possible.
+Omar: Today, sure.
+Nina: Risk-wise, the vendor for our auth service is sunsetting their old API in, like, March. We haven't planned the migration.
+Sam: That's... yeah, that could be a big deal. We need a plan. I don't know who should own this yet. Let's park it and decide at next planning.
+Jess: Should we also stop doing Friday deploys?
+Sam: Yes. Decision: no more Friday deploys, starting now.
+Sam: Okay, good retro. Thanks all.

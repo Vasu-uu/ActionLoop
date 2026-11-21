@@ -1,0 +1,23 @@
+[
+  {
+    "id": "startup-standup",
+    "title": "Startup weekly standup",
+    "description": "Early-stage startup: Safari bug, legal review, Postgres decision, launch-day risks.",
+    "file": "startup-standup.txt",
+    "attendees": ["Priya", "Marcus", "Dana", "Leo"]
+  },
+  {
+    "id": "club-planning",
+    "title": "Tech club: spring hackathon planning",
+    "description": "College club: venue, sponsors, food budget, 12-hour format, judges.",
+    "file": "club-planning.txt",
+    "attendees": ["Aisha", "Ben", "Chloe", "Diego", "Mei"]
+  },
+  {
+    "id": "project-retro",
+    "title": "Sprint 22 retrospective",
+    "description": "Engineering team retro: release checklist, flaky tests, slow exports, auth vendor sunset.",
+    "file": "project-retro.txt",
+    "attendees": ["Sam", "Nina", "Omar", "Jess"]
+  }
+]

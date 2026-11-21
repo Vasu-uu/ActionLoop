@@ -1,0 +1,33 @@
+{
+  "summary": {
+    "bullets": [
+      "Signup screen is nearly done, but a Safari password-focus bug is blocking the beta invite.",
+      "Pricing page refund wording is stuck waiting on legal; Dana now owns the follow-up.",
+      "Analytics dashboard is ~70% done; Postgres confirmed for launch, warehouse revisited afterwards.",
+      "Email-provider throttling could stop all fifty beta invites going out on launch day.",
+      "The investor demo date (the 20th) is unconfirmed and needs a check with the board."
+    ],
+    "paragraph": "The team reviewed launch readiness. Marcus will fix the Safari focus bug, Dana will send the refund wording to legal and draft a launch blog post, and Leo will investigate email sending limits. The team confirmed Postgres for the events table at launch. Open items include the investor demo date and an out-of-date README that nobody owns yet."
+  },
+  "decisions": [
+    {"id": "d1", "decision": "Use Postgres for the events table at launch; revisit a hosted warehouse after launch.", "rationale": "Keeps launch scope small; the analytics dashboard is already built on it.", "evidence_quote": "Yes, Postgres for now. We can revisit the warehouse after launch."},
+    {"id": "d2", "decision": "Dana owns the legal follow-up on the refund wording.", "rationale": "She already has the relationship with the legal team.", "evidence_quote": "Dana, you've got the relationship with them"}
+  ],
+  "action_items": [
+    {"id": "a1", "title": "Fix Safari password-field focus bug", "description": "The password field loses focus in Safari on the new signup screen, which blocks the beta invite.", "owner": "Marcus", "owner_confidence": "high", "deadline_raw": "by tomorrow", "priority": "high", "evidence_quote": "I can look at the Safari focus bug by tomorrow"},
+    {"id": "a2", "title": "Send refund wording to legal and chase for review", "description": "Pricing page copy cannot be finalised until legal reviews the refund wording.", "owner": "Dana", "owner_confidence": "high", "deadline_raw": "by Friday", "priority": "high", "evidence_quote": "I'll send it this afternoon and chase by Friday"},
+    {"id": "a3", "title": "Investigate email provider sending limits", "description": "Check whether throttling would prevent all fifty beta invites from going out on launch day.", "owner": "Leo", "owner_confidence": "high", "deadline_raw": "next week", "priority": "high", "evidence_quote": "I'll look into the email sending limits next week"},
+    {"id": "a4", "title": "Draft launch blog post", "description": "A first draft of a launch announcement post.", "owner": "Dana", "owner_confidence": "high", "deadline_raw": "by end of the month", "priority": "medium", "evidence_quote": "a draft blog post by end of the month would be great"},
+    {"id": "a5", "title": "Confirm investor demo date with the board", "description": "Nobody knows whether the demo on the twentieth is still happening.", "owner": "Priya", "owner_confidence": "medium", "deadline_raw": null, "priority": "medium", "evidence_quote": "I need to check with the board"},
+    {"id": "a6", "title": "Update the out-of-date README", "description": "The README is way out of date; explicitly deprioritised.", "owner": null, "owner_confidence": "low", "deadline_raw": "at some point", "priority": "low", "evidence_quote": "somebody should probably update the README"}
+  ],
+  "open_questions": [
+    {"id": "q1", "question": "Is the investor demo still on the twentieth?", "suggested_owner": "Priya"},
+    {"id": "q2", "question": "Who owns the README refresh?", "suggested_owner": null}
+  ],
+  "risks": [
+    {"id": "r1", "risk": "Email provider throttling may stop all fifty beta invites going out on launch day.", "severity": "high"},
+    {"id": "r2", "risk": "Safari focus bug blocks the beta invite if not fixed quickly.", "severity": "medium"}
+  ],
+  "topics": ["launch", "onboarding", "legal", "analytics", "email deliverability"]
+}
